@@ -4,7 +4,6 @@ def calculate_total_bill(amount: float, tip_percent: int) -> float:
     total = amount + (amount * tip_percent / 100)
     return round(total, 2)
 
-
 if __name__ == "__main__":
     print("Test 1:", calculate_total_bill(100.0, 15))
     print("Test 2:", calculate_total_bill(55.50, 20))
