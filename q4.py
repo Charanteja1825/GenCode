@@ -11,7 +11,7 @@ if __name__ == "__main__":
     print(get_ticket_price(20, True))
     print(get_ticket_price(25, False))
     print(get_ticket_price(12, False))
-
+    
     assert get_ticket_price(10, False) == 8
     assert get_ticket_price(70, True) == 10
     assert get_ticket_price(20, True) == 12
@@ -19,3 +19,4 @@ if __name__ == "__main__":
     assert get_ticket_price(12, False) == 15
 
     print("All test cases passed")
+
