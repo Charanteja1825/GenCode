@@ -16,5 +16,4 @@ if __name__ == "__main__":
     assert count_inventory(["grape"]) == {"grape": 1}
     assert count_inventory([]) == {}
     assert count_inventory(["Apple", "apple"]) == {"Apple": 1, "apple": 1}
-
     print("All test cases passed")
