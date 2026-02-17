@@ -16,5 +16,4 @@ if __name__ == "__main__":
     assert sanitize_email("myname.website.com") == "Invalid Email"
     assert sanitize_email("admin@@company.com") == "Invalid Email"
     assert sanitize_email("   ") == "Invalid Email"
-
     print("All test cases passed")
