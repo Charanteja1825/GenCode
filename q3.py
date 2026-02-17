@@ -13,7 +13,7 @@ if __name__ == "__main__":
     print(average_passing_grades([10, 20, 30]))
     print(average_passing_grades([85]))
     print(average_passing_grades([]))
-
+    
     assert average_passing_grades([40, 60, 80, 20]) == 70.0
     assert average_passing_grades([50, 100]) == 75.0
     assert average_passing_grades([10, 20, 30]) == 0.0
