@@ -16,5 +16,4 @@ if __name__ == "__main__":
     assert original == [3, 1, 2]
     assert organize_scores([1, 2, 3], False) == [1, 2, 3]
     assert organize_scores([], False) == []
-
     print("All test cases passed")
