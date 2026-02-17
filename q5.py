@@ -44,3 +44,4 @@ if __name__ == "__main__":
     assert calculate("5") == 5.0
 
     print("All test cases passed")
+
