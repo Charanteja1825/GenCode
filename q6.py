@@ -17,5 +17,4 @@ if __name__ == "__main__":
     assert convert_temperature(100, 'C') == 212.0
     assert convert_temperature(-40, 'F') == -40.0
     assert convert_temperature(25, 'K') == "Invalid Unit"
-
     print("All test cases passed")
