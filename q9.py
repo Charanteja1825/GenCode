@@ -15,5 +15,4 @@ if __name__ == "__main__":
     assert generate_threes(5, 5) == []
     assert generate_threes(20, 10) == []
     assert generate_threes(-5, 5) == [-5, -2, 1, 4]
-
     print("All test cases passed")
